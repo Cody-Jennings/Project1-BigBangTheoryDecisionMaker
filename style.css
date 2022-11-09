@@ -1,5 +1,4 @@
 body {
-    /*background-image: url("Shelbot.jpg");*/
     text-align: center;
     background: rgb(39, 94, 213);
     color: rgb(157, 255, 0);
@@ -28,15 +27,17 @@ img {
 }
 
 .listLegend {
-    
+    font-size: 22pt;
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block
 }
-
 
 
 .scoreBoard {
     font-size: 20px;
-    height: 300px;
-    margin: ;
+    height: 800px;
+    /*margin:*/
     width: 14em;
     border: 1px solid lime;
     flex-grow: 1;
@@ -47,12 +48,12 @@ img {
 .scoreBoard h2 {
     margin: 10px auto;
     width: 100%;
-    border-bottom: 1px solid lime;
+    border: 1px solid lime;
     text-align: center;
 }
 
 .scoreBoard table {
-    margin: 10px auto;
+    margin: 20px auto;
     width: 100%;
     border-collapse: collapse;
 }
