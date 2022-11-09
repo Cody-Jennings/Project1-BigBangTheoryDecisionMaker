@@ -1,10 +1,94 @@
+body {
+    /*background-image: url("Shelbot.jpg");*/
+    text-align: center;
+    background: rgb(39, 94, 213);
+    color: rgb(157, 255, 0);
+    font-size: 22pt;
+}
 
+strong {
+    text-decoration: underline;
+}
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
 
 .gameLegend {
-background-image: url("RPSLS.png");
+    display: flex;
+    height: 800px;
+    width: 50%;
+    justify-content: center
 }
 
-.buttons {
+.listLegend {
     
 }
+
+
+
+.scoreBoard {
+    font-size: 20px;
+    height: 300px;
+    margin: ;
+    width: 14em;
+    border: 1px solid lime;
+    flex-grow: 1;
+    
+    
+}
+
+.scoreBoard h2 {
+    margin: 10px auto;
+    width: 100%;
+    border-bottom: 1px solid lime;
+    text-align: center;
+}
+
+.scoreBoard table {
+    margin: 10px auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.scoreBoard td {
+    font-size: 3em;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.scoreBoard th {
+    text-align: center;
+}
+
+#boutStatus {
+    margin-top: 20px;
+}
+
+.choiceMessage {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+button {
+    
+}
+
+button:active {
+
+}
+.choiceMessage h2 {
+    
+}
+
+
+
+

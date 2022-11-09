@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,69 @@
     <title>Document</title>
     <script src="app.js"></script>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Rock, Paper, Scissors, Lizard, or Spock? Are you ready for a new spin on the classic game courtesy of Big Bang Theory.</h1>
 
-    <p>For those familiar with the show Big Bang Theory, Sheldon has uploaded his conciousness so that he has a forever virtual presence.</p>
-    <p>Sheldon has challenged you to a game of wits. </p> <p>The rules are simple: Scissors cuts Paper, Paper covers Rock, Rock crushes Lizrd, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, Rock crushes Scissors.</p>
+</head>
+
+<body>
+    <h1>Rock, Paper, Scissors, Lizard, or Spock? Are you ready for a new spin on the classic game courtesy of Big Bang
+        Theory?</h1>
+
+    <p>For those familiar with the show Big Bang Theory, Sheldon has uploaded his conciousness so that he has a forever
+        virtual presence.</p>
+    <p>Sheldon or (Shelbot) has challenged you to a game of wits.
+    </p>
+
+    <div class="container">
+
+        <div class="gameLegend">
+            <img src="RPSLS.png" alt="Game Legend">
+        </div>
+
+        <div class="scoreBoard">
+
+            <div class="listLegend">
+                <ul>
+                    <li><strong>Scissors</strong> cuts <strong>Paper</strong></li>
+                    <li><strong>Paper</strong> covers <Strong>Rock</Strong></li>
+                    <li><Strong>Rock</Strong> crushes <strong>Lizard</strong></li>
+                    <li><strong>Lizard</strong> poisons <strong>Spock</strong></li>
+                    <li><strong>Spock</strong> smashes <strong>Scissors</strong></li>
+                    <li><strong>Scissors</strong> decapitates <strong>Lizard</strong></li>
+                    <li><strong>Lizard</strong> eats <strong>Paper</strong></li>
+                    <li><strong>Paper</strong> disproves <strong>Spock</strong></li>
+                    <li><strong>Spock</strong> vaporizes <Strong>Rock</Strong></li>
+                    <li>and as it always has been <Strong>Rock</Strong> crushes <strong>Scissors</strong></li>
+                </ul>
+            </div>
+            <h2>SCOREBOARD</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="playerScore">0</td>
+                        <td id="shelBotScore">0</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Player</th>
+                        <th>Shelbot</th>
+                    </tr>
+                </tfoot>
+            </table>
+
+        <div class="choiceMessage">
+            <h2><strong>CHOOSE WISELY</strong> for there are many outcomes.</h2>
+        </div>
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            <button id="lizard">Lizard</button>
+            <button id="spock">Spock</button>
+
+            <div id="boutStatus"></div>
+
+        
+    </div>
 </body>
+
 </html>
