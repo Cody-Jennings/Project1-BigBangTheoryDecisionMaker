@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background: rgb(39, 94, 213);
+    background: rgb(111, 126, 159);
     color: rgb(157, 255, 0);
     font-size: 22pt;
 }
@@ -80,15 +80,19 @@ img {
 }
 
 button {
-    
+  background: black;
+  color: rgb(157, 255, 0);
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 button:active {
+    background: green;
+}
 
-}
-.choiceMessage h2 {
-    
-}
 
 
 
