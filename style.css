@@ -1,8 +1,9 @@
 body {
+    font-size: 22pt;                             /*pt is points for font size*/
     text-align: center;                          /*sets the horizontal alignment of the inline-level content inside a block element or table-cell box. */
     background: rgb(111, 126, 159);
     color: rgb(157, 255, 0);
-    font-size: 22pt;                             /*pt is points for font size*/
+                                
 }
 
 p {
@@ -82,15 +83,17 @@ img {
 }
 
 button {
-  background: black;
-  color: rgb(157, 255, 0);
-  border: none;
-  padding: 10px 15px;
-  font-size: 1.2em;
+  font-size: 18pt;                         
   font-family: monospace;
   font-weight: bold;
+  background: black;                      /*these colors are almost standard for aliens*/
+  color: rgb(157, 255, 0);
+  border: none;
+  padding: 10px 15px;                       /*padding is within border but outside content, top and bottom are at 10px, left and right are on 15 px*/
+  text-align: center;
+  
 }
 
-button:active {
-    background: blue;
+button:active {                             /*when button is active or selected the color turns red*/
+    background: red;
 }

@@ -105,8 +105,8 @@ function play(playerMove) {                         //this function compares the
             return 2
         }   else if (shelBotMove == "lizard") {
             return 0;
-        }   else if (shelBotMove == "spcok") {
-            return 2
+        }   else if (shelBotMove == "spock") {
+            return 1
         }
     }   else if (playerMove == "spock") {
         if (shelBotMove == "rock") {
