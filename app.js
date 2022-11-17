@@ -42,7 +42,7 @@ function manualScoreReset() {                //this function resets game as a wh
 }
 
 function playGame(playerMove) {                         //function thatmoves game forward 
-    if(!gameOver){                                       //checks if game over is false run the code
+    if(!gameOver){                                       //checks if game over is false and runs the code
         let result = play(playerMove)                   //plays round and returns result
         boutStatusMessage(result)                       //displays the bout status message of who won the round
         updateScore()                                   //updates the score

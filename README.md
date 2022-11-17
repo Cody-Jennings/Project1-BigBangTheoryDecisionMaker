@@ -6,10 +6,8 @@ While the title may suggest otherwise this is simply an extended version of rock
 
 ## Introduction
 
-github pages link https://cody-jennings.github.io/Project1-BigBangTheoryDecisionMaker/
-
-Rock paper scissors lizard spock appeared in an episode of Big Bang Theory titled "The Lizard-Spock Expansion. Sheldon one of the main characters of the show gives a brief history and explains the new rules. As mentioned before this game can be played amongst multiple people. These individuals make their choices and display them simultaneously to prevent anyone from changing at the last second. The sign for rock is a "closed fist", paper is a "horizontal peace sign", paper is a "horizontal flat hand with plam facing down". Now comes the additions lizard is "all fingers meet thumb horizontally almost like making a set of jaws", and lastly is spock which has three groupings of fingers "fingers and thumbs pointed to sky like a high five, thumb is by itself then a gap, then pointer and middle finger together then a gap and lastly ring and pinky finger together. I have attached a link for viewer pleasure to showcase where I got my motivation for this game from. [-Game Motivation](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
-[-Live Site](https://cody-jennings.github.io/Project1-BigBangTheoryDecisionMaker/)
+Rock paper scissors lizard spock appeared in an episode of Big Bang Theory titled "The Lizard-Spock Expansion. Sheldon one of the main characters of the show gives a brief history and explains the new rules. As mentioned before this game can be played amongst multiple people. These individuals make their choices and display them simultaneously to prevent anyone from changing at the last second. The sign for rock is a "closed fist", paper is a "horizontal peace sign", paper is a "horizontal flat hand with plam facing down". Now comes the additions lizard is "all fingers meet thumb horizontally almost like making a set of jaws", and lastly is spock which has three groupings of fingers "fingers and thumbs pointed to sky like a high five, thumb is by itself then a gap, then pointer and middle finger together then a gap and lastly ring and pinky finger together. I have attached a link for viewer pleasure to showcase where I got my motivation for this game from. [Game Motivation](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+[Live Site](https://cody-jennings.github.io/Project1-BigBangTheoryDecisionMaker/)
 
 - - - 
 
@@ -43,7 +41,7 @@ Now with the addition of lizard and spock the rules go up to 10:
 
 - - -
 
-## Screenshots
+## Game Play screenshots
 
 Below is an outcome example of 1 round of play. This displays who chose what, who won the round and an updated score.
 
