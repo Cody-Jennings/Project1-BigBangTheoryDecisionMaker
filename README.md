@@ -54,11 +54,11 @@ Now with the addition of lizard and spock the rules go up to 10:
 - - -
 
 ## Screenshots
-![Example of 1 round of play.](images/Project1_roundexample.png)
+![Example of 1 round of play.](./images/Project1_roundexample.png)
 
-![Example of player lose state.](images/Project1_playerlosestate.png)
+![Example of player lose state.](./images/Project1_playerlosestate.png)
 
-![Example of player win state.](images/Project1_playerwinstate.png)
+![Example of player win state.](./images/Project1_playerwinstate.png)
 
 - - - 
 
