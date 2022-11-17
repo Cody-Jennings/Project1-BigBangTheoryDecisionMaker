@@ -3,9 +3,9 @@ let shelBotScore = 0;
 let boutStatusMessage1 = "You win! :)";
 let boutStatusMessage2 = "You lose. :(";
 let boutStatusMessage3 = "You tied. :|";
-let gameOver = false;
+let gameOver = false;                           //always going to equal false until game ends
 
-document.getElementById("rock").onclick = playRock;       //The onclick event attribute works when the user clicks  on the button. When the mouse is clicked on the element then the script runs.
+document.getElementById("rock").onclick = playRock;       //The onclick event attribute works when the user clicks on the button. When the mouse is clicked on the element then the script runs.
 document.getElementById("paper").onclick = playPaper;
 document.getElementById("scissors").onclick = playScissors;
 document.getElementById("lizard").onclick = playLizard;
@@ -32,56 +32,31 @@ function playSpock() {
     playGame("spock");
 }
 
-function manualScoreReset() {                //this function resets both player and shelbot scores to zero and the bout status messages of who played what, winner of round and winner of game.              
-    document.getElementById("playerScore").innerHTML = 0;
+function manualScoreReset() {                //this function resets game as a whole   rename to resetGame              
+    document.getElementById("playerScore").innerHTML = 0;    //changes html
     document.getElementById("shelBotScore").innerHTML = 0;
     document.getElementById("boutStatus").innerHTML = "";
-    //document.getElementById("results").innerHTML = "";    //is this needed?
-    playerScore = 0;
+    playerScore = 0;        //changes code side
     shelBotScore = 0;
-    gameOver = false
+    gameOver = false        //makes round playable again
 }
 
-function boutStatusMessage(number) {        //function used to insert boutstatus message depending on case of win, lose, or tie
-     switch (number) {
-        case 1:
-            document.getElementById("boutStatus").innerHTML += "<p>You win! :)</p>";
-                playerScore++
-            break
-        case 2:
-            document.getElementById("boutStatus").innerHTML += "<p>You lose. :(</p>";
-                shelBotScore++
-            break
-        default:
-            document.getElementById("boutStatus").innerHTML += "<p>You tied. :|</p>";
-            break
-     }
-}
-
-function playGame(playerMove) {                         //function 
-    if(!gameOver){
-        let result = play(playerMove)                   //
+function playGame(playerMove) {                         //function thatmoves game forward 
+    if(!gameOver){                                       //checks if game over is false run the code
+        let result = play(playerMove)                   //plays round and returns result
         boutStatusMessage(result)                       //displays the bout status message of who won the round
         updateScore()                                   //updates the score
-        winCheck()                                      //check to see who wins the game
-        console.log(playerScore)
+        winCheck()                                      //check to see who wins the round
 
-        if(playerScore == 10 || shelBotScore == 10) {   // how to stop the game completely at first to ten
+        if(playerScore == 10 || shelBotScore == 10) {   // this is the games end and displays winner
             displayGameWinner()
         }
     }
 }
 
-// function addToScore(score) {                // is this even needed?
-//     if(score < 10) {
-//         score++
-//     }
-//     return
-// }
+function play(playerMove) {                         //this function compares the player choice to the computers choice and returns the result
 
-function play(playerMove) {                         //function used for player choice and to determine the bout status message and updateing score depending on shelbots move
-
-    let shelBotMove = getShelBotMove();
+    let shelBotMove = getShelBotMove();             //gets computers choice
 
     document.getElementById("boutStatus").innerHTML = "<p>You have selected <strong>" + playerMove + "</strong>. Shelbot has selected <strong>" + shelBotMove + "</strong>.</p>"
 
@@ -149,9 +124,25 @@ function play(playerMove) {                         //function used for player c
 }
 
 function getShelBotMove() {                                                 //function to randomize shelbots choice
-    let moves = ["rock", "paper", "scissors", "lizard", "spock"];
-    let move = moves[Math.floor(Math.random() * moves.length)];    // study this
+    let moves = ["rock", "paper", "scissors", "lizard", "spock"];           //5 moves but 0-4 indexes
+    let move = moves[Math.floor(Math.random() * moves.length)];    //random gets number 0 inclusive 1 exclusive  math.floor rounds down  so we stay within the correct index length
     return move;
+}
+
+function boutStatusMessage(number) {        //function used to insert boutstatus message depending on case of win, lose, or tie
+    switch (number) {                       // switch case is basically an if else statement
+       case 1:
+           document.getElementById("boutStatus").innerHTML += "<p>You win! :)</p>";
+               playerScore++
+           break
+       case 2:
+           document.getElementById("boutStatus").innerHTML += "<p>You lose. :(</p>";
+               shelBotScore++
+           break
+       default:
+           document.getElementById("boutStatus").innerHTML += "<p>You tied. :|</p>";
+           break
+    }
 }
 
 function updateScore() {                                                    //function to update score in the DOM
@@ -171,4 +162,13 @@ function displayGameWinner() {               //function to display overall game 
     } else if(shelBotScore >= playerScore) {
         document.getElementById("boutStatus").innerHTML = "<p><strong>Bazinga!!!!!  You have lost the game!</strong> Reset the game if you want to be crushed again!! :(</p>"
     }
+}
+
+function manualScoreReset() {                //this function resets game as a whole   rename to resetGame              
+    document.getElementById("playerScore").innerHTML = 0;    //changes html
+    document.getElementById("shelBotScore").innerHTML = 0;
+    document.getElementById("boutStatus").innerHTML = "";
+    playerScore = 0;        //changes code side
+    shelBotScore = 0;
+    gameOver = false        //makes round playable again
 }

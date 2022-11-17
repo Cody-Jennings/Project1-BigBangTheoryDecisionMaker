@@ -1,8 +1,8 @@
 body {
-    text-align: center;
+    text-align: center;                          /*sets the horizontal alignment of the inline-level content inside a block element or table-cell box. */
     background: rgb(111, 126, 159);
     color: rgb(157, 255, 0);
-    font-size: 22pt;
+    font-size: 22pt;                             /*pt is points for font size*/
 }
 
 p {
@@ -10,46 +10,45 @@ p {
 }
 
 strong {
-    text-decoration: underline;
+    text-decoration: underline;                  /*underline words with strong tag in html*/
 }
 
 .container {
-    display: flex;
+    display: flex;                               /*Display flex is the property of flex container to use flexbox. CSS Display property can have value flex or inline-flex. By using display flex or inline-flex to parent container, the children automatically enable flex context.*/
     align-items: center;
-    justify-content: center;
+    justify-content: center;                     /*The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.*/
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%;                            /*The max-width CSS property sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width*/
 }
 
 .gameLegend {
     display: flex;
-    height: 800px;
-    width: 50%;
+    height: 800px;                              /*gamelegends height is 800 pixels and width is 50% of element */
+    width: 50%;                                 /*width is 50% of element */
     justify-content: center
 }
 
 .listLegend {
     font-size: 20pt;
-    list-style-position: inside;
+    list-style-position: inside;                /*The list-style-position CSS property sets the position of the ::marker relative to a list item*/
     text-align: left;
-    display: inline-block
+    display: inline-block                       /*The element generates a block element box that will be flowed with surrounding content as if it were a single inline box (behaving much like a replaced element would)*/
 }
 
 
 .scoreBoard {
     font-size: 20px;
     height: 800px;
-    width: 14em;
     border: 1px solid lime;
-    flex-grow: 1;
+    flex-grow: 1;                               /*grows scoreboard container to make symmetrical with game legend container inside the parent container class*/
     
     
 }
 
 .scoreBoard h2 {
-    margin: 10px auto;
+    margin: 10px auto;                          /*top and bottom margins are 10 pixels, left and right are auto which the browser calculates*/
     width: 100%;
     border: 1px solid lime;
     text-align: center;
@@ -58,12 +57,12 @@ img {
 .scoreBoard table {
     margin: 12px auto;
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse;                  /*Border collapse-collapse has shared borders within a table*/
 }
 
 .scoreBoard td {
-    font-size: 3em;
-    padding: 0 20px;
+    font-size: 3em;                             /*Using an em value creates a dynamic or computed font size, font size of scoreboard td elements will be double the computed font-size inherited by scoreboard div. Default suggests 3em is equizalent to 48px*/
+    padding: 0 20px;                            /*padding is within border but outside content, top and bottom are at 0, left and right are on 20 px*/
     text-align: center;
 }
 
@@ -72,7 +71,6 @@ img {
 }
 
 #boutStatus {
-    margin-top: 20px;
     font-size: 22pt
 }
 
@@ -94,9 +92,5 @@ button {
 }
 
 button:active {
-    background: green;
+    background: blue;
 }
-
-/* #results {
-    font-size: 22pt;
-} */
