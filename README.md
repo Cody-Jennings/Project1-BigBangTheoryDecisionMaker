@@ -1,9 +1,4 @@
-Title of project
 how to access it (fork and clone, etc.)
-Link to the GitHub page
-Technologies used
-Any acknowledgements
-You can and should add images, videos, etc, to enhance your readme...
 
 # Big Bang Theory Decision Maker
 
@@ -14,6 +9,9 @@ While the title may suggest otherwise this is simply an extended version of rock
 ## Introduction
 
 in order to clone this repositroy click this url https://github.com/Cody-Jennings/Project1-BigBangTheoryDecisionMaker.git
+
+
+github pages link https://cody-jennings.github.io/Project1-BigBangTheoryDecisionMaker/
 
 Rock paper scissors lizard spock appeared in an episode of Big Bang Theory titled "The Lizard-Spock Expansion. Sheldon one of the main characters of the show gives a brief history and explains the new rules. As mentioned before this game can be played amongst multiple people. These individuals make their choices and display them simultaneously to prevent anyone from changing at the last second. The sign for rock is a "closed fist", paper is a "horizontal peace sign", paper is a "horizontal flat hand with plam facing down". Now comes the additions lizard is "all fingers meet thumb horizontally almost like making a set of jaws", and lastly is spock which has three groupings of fingers "fingers and thumbs pointed to sky like a high five, thumb is by itself then a gap, then pointer and middle finger together then a gap and lastly ring and pinky finger together. I have attached a link for viewer pleasure to showcase where I got my motivation for this game from.
 [] (https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
@@ -54,11 +52,18 @@ Now with the addition of lizard and spock the rules go up to 10:
 - - -
 
 ## Screenshots
-![Example of 1 round of play.](images/Project1-roundexample.png)
 
-![Example of player lose state.](images/Project1-playerlosestate.png)
+Below is an outcome example of 1 round of play. This displays who chose what, who won the round and an updated score.
 
-![Example of player win state.](images/Project1-playerwinstate.png)
+![](Images/Project1-roundexample.png)
+
+Below is the player lose state outcome with final score and computer taunting message.
+
+![](Images/Project1-playerlosestate.png)
+
+Below is the player win state outcome with final score and computer taunting message.
+
+![](Images/Project1-playerwinstate.png)
 
 - - - 
 
@@ -78,11 +83,29 @@ Now with the addition of lizard and spock the rules go up to 10:
 - Youtube tutorials
 - MDN Web Docs
 - W3 Schools
+- GitHub Docs 
 - Kasper Kain
 - Richard Harris
 - Long Hoang
-- All other classmates who took time to look at my project and give feedback/criticism.
+- All other classmates who took time to look at my project and gave confidence boosters and feedback/criticism.
 
+## Cloning and Forking this Repository
 
+Cloning repository
 
+1. In the File menu, click Clone Repository.
+2. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
+3. Choose the repository you want to clone from the list.
+4. Click Choose... and navigate to a local path where you want to clone the repository.
+5. Click Clone.
 
+Forking a repository
+
+1. In the File menu, click Clone Repository.
+2. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
+3. Choose the repository you want to clone from the list.
+4. Click Choose... and navigate to a local path where you want to clone the repository.
+5. Click Clone.
+6. If you plan to use this fork for contributing to the original upstream repository, click To contribute to the parent project.
+7. If you plan to use this fork for a project not connected to the upstream, click For my own purposes.
+8. Click Continue.
