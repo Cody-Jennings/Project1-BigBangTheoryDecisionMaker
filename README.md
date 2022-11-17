@@ -5,13 +5,13 @@ Technologies used
 Any acknowledgements
 You can and should add images, videos, etc, to enhance your readme...
 
-## Big Bang Theory Decision Maker
+# Big Bang Theory Decision Maker
 
 While the title may suggest otherwise this is simply an extended version of rock paper scissor with two added elements of lizard and spock. This game can be played amongst many people especially when making a final decision. Can be used to settle where to eat, what movie to watch etc.
 
 - - - 
 
-Introduction
+## Introduction
 
 in order to clone this repositroy click this url https://github.com/Cody-Jennings/Project1-BigBangTheoryDecisionMaker.git
 
@@ -54,11 +54,11 @@ Now with the addition of lizard and spock the rules go up to 10:
 - - -
 
 ## Screenshots
-![Example of 1 round of play.](./images/Project1_roundexample.png)
+![Example of 1 round of play.](images/Project1-roundexample.png)
 
-![Example of player lose state.](./images/Project1_playerlosestate.png)
+![Example of player lose state.](images/Project1-playerlosestate.png)
 
-![Example of player win state.](./images/Project1_playerwinstate.png)
+![Example of player win state.](images/Project1-playerwinstate.png)
 
 - - - 
 
