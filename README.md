@@ -46,7 +46,7 @@ Now with the additions of Lizard and Spock the rules go up to ten:
 
 Below is an outcome example of one round of play. This displays who chose what, who won the round and an updated score.
 
-![](Images/Project1-roundexample.png)
+![](Images/Project1-roundexample1.png)
 
 Below is the player lose state outcome with final score and computer taunting message.
 
