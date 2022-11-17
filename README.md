@@ -1,5 +1,3 @@
-how to access it (fork and clone, etc.)
-
 # Big Bang Theory Decision Maker
 
 While the title may suggest otherwise this is simply an extended version of rock paper scissor with two added elements of lizard and spock. This game can be played amongst many people especially when making a final decision. Can be used to settle where to eat, what movie to watch etc.
@@ -8,13 +6,10 @@ While the title may suggest otherwise this is simply an extended version of rock
 
 ## Introduction
 
-in order to clone this repositroy click this url https://github.com/Cody-Jennings/Project1-BigBangTheoryDecisionMaker.git
-
-
 github pages link https://cody-jennings.github.io/Project1-BigBangTheoryDecisionMaker/
 
-Rock paper scissors lizard spock appeared in an episode of Big Bang Theory titled "The Lizard-Spock Expansion. Sheldon one of the main characters of the show gives a brief history and explains the new rules. As mentioned before this game can be played amongst multiple people. These individuals make their choices and display them simultaneously to prevent anyone from changing at the last second. The sign for rock is a "closed fist", paper is a "horizontal peace sign", paper is a "horizontal flat hand with plam facing down". Now comes the additions lizard is "all fingers meet thumb horizontally almost like making a set of jaws", and lastly is spock which has three groupings of fingers "fingers and thumbs pointed to sky like a high five, thumb is by itself then a gap, then pointer and middle finger together then a gap and lastly ring and pinky finger together. I have attached a link for viewer pleasure to showcase where I got my motivation for this game from.
-[] (https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+Rock paper scissors lizard spock appeared in an episode of Big Bang Theory titled "The Lizard-Spock Expansion. Sheldon one of the main characters of the show gives a brief history and explains the new rules. As mentioned before this game can be played amongst multiple people. These individuals make their choices and display them simultaneously to prevent anyone from changing at the last second. The sign for rock is a "closed fist", paper is a "horizontal peace sign", paper is a "horizontal flat hand with plam facing down". Now comes the additions lizard is "all fingers meet thumb horizontally almost like making a set of jaws", and lastly is spock which has three groupings of fingers "fingers and thumbs pointed to sky like a high five, thumb is by itself then a gap, then pointer and middle finger together then a gap and lastly ring and pinky finger together. I have attached a link for viewer pleasure to showcase where I got my motivation for this game from. [-Game Motivation](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+[-Live Site](https://cody-jennings.github.io/Project1-BigBangTheoryDecisionMaker/)
 
 - - - 
 
@@ -23,10 +18,7 @@ Rock paper scissors lizard spock appeared in an episode of Big Bang Theory title
 In a normal game players can say rock, paper, scissors, lizard, spock then show their choice against the other players choice. In this project the player will get to select which of the five choices they would like (rock, paper, scissors, lizard, spock) and upon selecting the preferred choice button the computer randomizes its choice amongst the exact same options.
 Both player and computer choices are then displayed instantly, along with who won and an increase of one point on the scoreboard to whomever won. If there is a tie the scores remain unchanged from previous round. This round of play will continues until the overall game ends when someone reaches 10 first and has a special message displayed. In other words if the player is tied with the computer at 9-9 whoever wins the round to get to 10 wins the game! Players also have a choice to replay due to pressing their luck (if they won) or proving the computer's taunting wrong (for losing the game).
 
-
-
 - - - 
-
 
 ## Rules:
 
@@ -67,14 +59,11 @@ Below is the player win state outcome with final score and computer taunting mes
 
 - - - 
 
-
 ## Technologies used:
 - HTML
 - CSS
 - JavaScript
-- VS Code
-- Github
-- GitHub.io
+- Deployed to Github pages directly from GitHub
 
 - - - 
 
@@ -89,23 +78,27 @@ Below is the player win state outcome with final score and computer taunting mes
 - Long Hoang
 - All other classmates who took time to look at my project and gave confidence boosters and feedback/criticism.
 
-## Cloning and Forking this Repository
+## How to access this Repository
 
-Cloning repository
+1. Clone or fork the repository
+To download the code, copy and paste the following into your terminal:
+git clone https://github.com/Cody-Jennings/Project1-BigBangTheoryDecisionMaker.git
 
-1. In the File menu, click Clone Repository.
-2. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
-3. Choose the repository you want to clone from the list.
-4. Click Choose... and navigate to a local path where you want to clone the repository.
-5. Click Clone.
+![](Images/Project1-installationStep1.png)
 
-Forking a repository
+2. Using VSCode launch the index.html file with the live server extension, this can be accomplished three ways. First is to right click on the file and selecting Open with Live Server.
 
-1. In the File menu, click Clone Repository.
-2. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
-3. Choose the repository you want to clone from the list.
-4. Click Choose... and navigate to a local path where you want to clone the repository.
-5. Click Clone.
-6. If you plan to use this fork for contributing to the original upstream repository, click To contribute to the parent project.
-7. If you plan to use this fork for a project not connected to the upstream, click For my own purposes.
-8. Click Continue.
+![](Images/Project1-installationStep2.png)
+
+Second method is to use the shortcut Alt+L Alt+O
+
+![](Images/Project1-installationStep2.1.png)
+
+Third method is using the Go Live option in the bottom right hand corner of your terminal.
+
+![](Images/Project1-installationStep2.2.png)
+
+
+## Disclaimer
+
+I am not affiliated with nor own any rights regarding this game or the tv show Big Bang Theory. No profits were generated from this project. All material utilized were for educational and demonstration purposes. 
