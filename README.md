@@ -67,7 +67,7 @@ Below is the player win state outcome with final score and computer taunting mes
 - - - 
 
 ## Acknowledgements:
-- Big Bang Thoery 
+- Big Bang Theory 
 - Youtube tutorials
 - MDN Web Docs
 - W3 Schools
@@ -75,6 +75,8 @@ Below is the player win state outcome with final score and computer taunting mes
 - Kasper Kain
 - Richard Harris
 - Long Hoang
+- Arianna Bunn
+- Moses Blount 
 - All other classmates who took time to look at my project and gave confidence boosters and feedback/criticism.
 
 ## How to access this Repository
@@ -88,7 +90,7 @@ git clone https://github.com/Cody-Jennings/Project1-BigBangTheoryDecisionMaker.g
 
 2. Using VSCode launch the index.html file with the live server extension, this can be accomplished three ways. 
 
-First is to right click on the file and selecting Open with Live Server.
+First is to right click on the index.html file and selecting Open with Live Server.
 
 ![](Images/Project1-installationStep2.png)
 
@@ -101,6 +103,15 @@ Third method is using the Go Live option in the bottom right hand corner of your
 ![](Images/Project1-installationStep2.2.png)
 
 
+## Resources
+
+- https://www.markdownguide.org/cheat-sheet/
+- https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
+- Youtube tutorials
+- MDN Web Docs
+- GitHub Docs
+- W3 Schools
+
 ## Disclaimer
 
-I am not affiliated with nor own any rights regarding this game or the tv show Big Bang Theory. No profits were generated from this project. All material utilized were for educational and demonstration purposes. 
+I am not affiliated with nor own any rights regarding this game or the tv show Big Bang Theory. No profits were generated from this project. All materials utilized were for educational and demonstration purposes only. 

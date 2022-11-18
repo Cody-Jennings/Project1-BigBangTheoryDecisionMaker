@@ -77,7 +77,7 @@ img {
 
 .choiceMessage {
     text-align: center;
-    display: flex;
+    display: flex;                          /*Display flex is the property of flex container to use flexbox. CSS Display property can have value flex or inline-flex. By using display flex or inline-flex to parent container, the children automatically enable flex context.*/
     align-items: center;
     height: 70px;
 }
