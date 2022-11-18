@@ -5,8 +5,8 @@ let boutStatusMessage2 = "You lose. :(";
 let boutStatusMessage3 = "You tied. :|";
 let gameOver = false;                                     //always going to equal false until game ends
 
-document.getElementById("rock").onclick = playRock;       //The onclick event attribute works when the user clicks on the button. When the mouse is clicked on the element then the script runs.
-document.getElementById("paper").onclick = playPaper;
+document.getElementById("rock").onclick = playRock;       //The onclick event attribute works when the user clicks on the button. 
+document.getElementById("paper").onclick = playPaper;     //When the mouse is clicked on the element then the script runs.
 document.getElementById("scissors").onclick = playScissors;
 document.getElementById("lizard").onclick = playLizard;
 document.getElementById("spock").onclick = playSpock;
@@ -36,20 +36,20 @@ function resetGame() {                                       //this function res
     document.getElementById("playerScore").innerHTML = 0;    //resets scores html side 
     document.getElementById("shelBotScore").innerHTML = 0;
     document.getElementById("boutStatus").innerHTML = "";
-    playerScore = 0;                                        //resets scores code side
+    playerScore = 0;                                        //resets scores code side/without this code new game would continue from old scores
     shelBotScore = 0;
     gameOver = false                                        //makes round playable again
 }
 
 function playGame(playerMove) {                            //function that moves game forward 
-    if(gameOver){                                         //checks if gameOver is true which would equal true and runs the code????
-        let result = play(playerMove)                     //plays round and returns result - function on line 57
+    if(!gameOver){                                         //if(!gameOver) == if(gameOver == false)/ if gameover variable equals false it runs the code
+        let result = play(playerMove)                     //play(playermove) function and returns result - function on line 57
         boutStatusMessage(result)                         //displays the bout status message of who won the round -function on line 132
         updateScore()                                     //updates the score - function on line 148
         winCheck()                                        //check to see who wins the round - function on line 153
 
         if(playerScore == 10 || shelBotScore == 10) {    //this is the games end and displays winner
-            displayGameWinner()                          //if either conditional is run function on line 159
+            displayGameWinner()                          //if either conditional is met run function on line 159
         }
     }
 }
@@ -125,8 +125,8 @@ function play(playerMove) {                             //this function compares
 
 function getShelBotMove() {                                                 //function to randomize shelbots choice
     let moves = ["rock", "paper", "scissors", "lizard", "spock"];           //5 moves but 0-4 indexes
-    let move = moves[Math.floor(Math.random() * moves.length)];    //math.random decimal number between (0-1)* moves.length array decimal number between (0-4) which could be 2.3 math.floor rounded down to index 2 which would be scissors
-    return move;
+    let move = moves[Math.floor(Math.random() * moves.length)];    //math.random decimal number between (0-1)* moves.length array decimal number between (0-4) 
+    return move;                                                    //which could be 2.3 math.floor rounded down to index 2 which would be scissors
 }
 
 function boutStatusMessage(number) {        //function used to insert boutstatus message depending on case of win, lose, or tie
@@ -150,7 +150,7 @@ function updateScore() {                                                    //fu
     document.getElementById("shelBotScore").innerHTML = shelBotScore;
 }
 
-function winCheck() {                                                       //checks to see who won the game based on who reaches the round score of 10 first
+function winCheck() {                                  //checks to see who won the game based on who reaches the round score of 10 first and ends the game
     if(playerScore == 10 || shelBotScore == 10) {
         gameOver = true
     }

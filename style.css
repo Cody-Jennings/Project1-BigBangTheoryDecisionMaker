@@ -2,8 +2,7 @@ body {
     font-size: 22pt;                             /*pt is points for font size*/
     text-align: center;                          /*sets the horizontal alignment of the inline-level content inside a block element or table-cell box. */
     background: rgb(111, 126, 159);
-    color: rgb(157, 255, 0);
-                                
+    color: rgb(157, 255, 0);                           
 }
 
 p {

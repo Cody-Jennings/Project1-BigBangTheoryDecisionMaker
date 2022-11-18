@@ -77,6 +77,7 @@ Below is the player win state outcome with final score and computer taunting mes
 - Long Hoang
 - Arianna Bunn
 - Moses Blount 
+- Gary Newton and his professional readme example
 - All other classmates who took time to look at my project and gave confidence boosters and feedback/criticism.
 
 ## How to access this Repository
