@@ -163,3 +163,4 @@ function displayGameWinner() {               //function to display overall game 
         document.getElementById("boutStatus").innerHTML = "<p><strong>Bazinga!!!!!  You have lost the game!</strong> Reset the game if you want to be crushed again!! :(</p>"
     }
 }
+
